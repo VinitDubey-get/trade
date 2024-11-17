@@ -1,0 +1,27 @@
+/* src/App.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Make sure the body takes full height */
+  width: 100%;  /* Make sure the body takes full width */
+}
+
+.app {
+  background-color: #121212;
+  color: white;
+  min-height: 100vh; /* Full viewport height */
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content {
+  flex: 1; /* Takes all available space */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: flex-start; /* Align items at the top */
+  padding: 20px;
+  width: 100%; /* Ensures full width */
+  height: 100%;
+}

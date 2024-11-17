@@ -1,0 +1,32 @@
+/* src/MainComponent.css */
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch; /* Stretch to fill height */
+  padding: 20px;
+  background-color: #121212;
+  min-height: 100vh; /* Full screen height */
+}
+
+.trade-form-section,
+.ai-prompt-section {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 20px;
+  width: 45%; /* Adjust width as necessary */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  height: 100%; /* Full height */
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  color: #f0ad4e; /* Attractive color for titles */
+}
+
+.trade-image,
+.ai-image {
+  width: 50px; /* Larger image size */
+  height: 50px; /* Larger image size */
+  margin-right: 10px; /* Space between image and heading */
+}

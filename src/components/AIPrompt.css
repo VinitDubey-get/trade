@@ -1,0 +1,40 @@
+/* src/AIPrompt.css */
+.ai-prompt-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.prompt-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #2a2a2a;
+  color: white;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.response-container {
+  margin-top: 20px; /* Space above the AI response */
+}
+
+h2 {
+  color: #f0ad4e; /* Attractive color for titles */
+}
